@@ -1,0 +1,106 @@
+.reviews__header{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+.reviews__header-title{
+    font-family: 'DIN Pro',sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 30px;
+    color: #111111;
+}
+.reviews__header-btn{
+    font-family: 'DIN Pro',sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    color: #F2F2F2;
+    background: #111111;
+    border-radius: 5px;
+    border: none;
+    width: 180px;
+    height: 36px;
+    cursor: pointer;
+}
+.reviews__item-header{
+    display: flex;
+    column-gap: 20px;
+    align-items: center;
+}
+.reviews__item-name{
+    font-family: 'DIN Pro',sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 30px;
+    color: #111111;
+}
+.reviews__item-date{
+    font-family: 'DIN Pro',sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    color: #A4ACAD;
+}
+.reviews__item{
+    padding: 10px;
+    background-color: #FFFFFF;
+}
+.reviews__list{
+    margin-top: 28px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 25px;
+}
+.reviews__item-text{
+    font-family: 'DIN Pro',sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    color: #000000;
+}
+.reviews__form{
+    display: flex;
+    flex-direction: column;
+    row-gap: 25px;
+}
+.reviews__form-input{
+    width: 30%;
+    height: 30px;
+    font-size: 16px;
+    padding: 5px 10px;
+}
+.reviews__form-text{
+    width: 60% !important;
+    height: 100px !important;
+    resize: none;
+    font-size: 18px;
+    padding: 5px 10px;
+}
+.reviews__form-btn{
+    font-family: 'DIN Pro',sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    color: #F2F2F2;
+    background: #111111;
+    border-radius: 5px;
+    border: none;
+    width: 180px;
+    height: 36px;
+    cursor: pointer;
+}
+.reviews__form-btns{
+    display: flex;
+    column-gap: 25px;
+}
+.reviews__form-not{
+    font-family: 'DIN Pro',sans-serif;
+    font-size: 15px;
+}

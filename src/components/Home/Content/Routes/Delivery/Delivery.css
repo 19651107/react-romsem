@@ -1,0 +1,23 @@
+.delivery{
+
+}
+.delivery__title{
+    font-family: 'DIN Pro',sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 22px;
+    color: #000000;
+    margin-bottom: 30px;
+}
+.delivery li{
+    line-height: 20px;
+    font-size: 20px;
+    font-family: 'DIN Pro',sans-serif;
+    margin-bottom: 10px;
+}
+.delivery__subtitle{
+    font-family: 'DIN Pro',sans-serif;
+    font-size: 22px;
+    margin-bottom: 15px;
+}

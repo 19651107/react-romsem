@@ -1,0 +1,109 @@
+.footer{
+    margin: 60px 0 25px 0;
+    border-top: 1px solid #A4ACAD;
+    padding: 31px 0 0 0 ;
+}
+.footer__list{
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+    border-right: 1px solid #A4ACAD;
+    padding-right: 100px;
+}
+.footer__card{
+    display: flex;
+}
+.footer__item{
+    font-family: 'DIN Pro',sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 100%;
+    color: #000000;
+}
+.footer__info{
+    padding: 0 66px;
+    border-right: 1px solid #A4ACAD;
+}
+.footer__info-title{
+    font-family: 'DIN Pro',sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    color: #000000;
+    margin-bottom: 10px;
+}
+.footer__info-number{
+    font-family: 'DIN Pro',sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 22px;
+    color: #A4ACAD;
+    margin-bottom: 20px;
+    border: none;
+    outline: none;
+    background: transparent;
+}
+.footer__info-messenger{
+    font-family: 'DIN Pro',sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    color: #A4ACAD;
+    margin-bottom: 10px;
+}
+.footer__info-imges{
+    display: flex;
+    align-items: center;
+    column-gap: 30px;
+    margin-top: 10px;
+}
+.footer__info-img1{
+    padding: 9px;
+    background-color: #1BD74150;
+    border-radius: 25px;
+    transition: .3s;
+}
+.footer__info-img1:hover{
+    background-color: #1BD741;
+    transition: .3s;
+}
+.footer__info-img2{
+    padding: 9px;
+    background-color: #61A8DE50;
+    border-radius: 25px;
+    transition: .3s;
+}
+.footer__info-img2:hover{
+    background-color: #61A8DE;
+    transition: .3s;
+}
+.footer__info-img3{
+    padding: 9px;
+    background: linear-gradient(49.12deg, #FFDD55 6.62%, #FF543E 50.06%, #C837AB 93.5%);
+    border-radius: 25px;
+    transition: .3s;
+    opacity: 50%;
+}
+.footer__info-img3:hover{
+    background: linear-gradient(49.12deg, #FFDD55 6.62%, #FF543E 50.06%, #C837AB 93.5%);
+    transition: .3s;
+    opacity: 100%;
+}
+.footer__foot{
+    margin-left: 40px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+}
+.footer__foot-item{
+    font-family: 'DIN Pro',sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    color: #A4ACAD;
+}

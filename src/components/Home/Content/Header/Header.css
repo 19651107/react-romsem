@@ -1,0 +1,169 @@
+.header{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 6px 40px 8px 18px;
+    border-bottom: 1px solid #A4ACAD;
+    margin-bottom: 30px;
+}
+.header__left{
+    display: flex;
+    align-items: center;
+}
+.header__phone{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-right: 1px solid #A4ACAD;
+    margin-right: 10px;
+    padding-right: 10px;
+}
+.header__phone-title{
+    font-family: 'DIN Pro',sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    color: #111111;
+}
+.header__phone-tel{
+    font-family: 'DIN Pro',sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 100%;
+    color: #FF9846;
+    margin-bottom: 5px;
+    transition: .3s;
+}
+.header__phone-tel:hover{
+    color: #111111;
+    transition: .3s;
+}
+.header__phone-work{
+    font-family: 'DIN Pro',sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    color: #A4ACAD;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 5px;
+}
+.header__address-info{
+    font-family: 'DIN Pro',sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 17px;
+    color: #A4ACAD;
+    margin-bottom: 4px;
+}
+.header__address-city{
+    font-family: 'DIN Pro',sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    color: #000000;
+}
+.header__right{
+    display: flex;
+    column-gap: 69px;
+    align-items: center;
+    margin-top: 10px;
+    position: relative;
+}
+.header__list{
+    display: flex;
+    column-gap: 10px;
+}
+.header__link{
+    font-family: 'DIN Pro',sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    color: #111111;
+    transition: .3s;
+}
+.header__link:hover{
+    color: #FF9846;
+    transition: .3s;
+}
+.header__search{
+    display: flex;
+    align-items: center;
+    column-gap: 20px;
+}
+.header__search-btn{
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+}
+.header__search-input{
+    border: none;
+    border-bottom: 1px solid black;
+    outline: none;
+    height: 40px;
+    background-color: transparent;
+    font-family: 'DIN Pro',sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 22px;
+    color: #111111;
+    letter-spacing: 2px;
+    display: none;
+    transition: .8s;
+}
+.header__search-list {
+    position: absolute;
+    background-color: #FFFFFF;
+    top: 85%;
+    width: 339px;
+    left: 292px;
+    z-index: 5;
+    padding: 10px 8px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+    border-radius: 5px;
+    border: none;
+    box-shadow: 0 0 18px 6px rgba(0, 0, 0, 0.09);
+    max-height: 460px;
+    overflow: auto;
+}
+.header__search-list-item{
+    display: flex;
+    column-gap: 20px;
+    align-items: center;
+}
+.header__search-list-img{
+    width: 72px;
+    height: 72px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.header__search-list-title{
+    font-family: 'DIN Pro',sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 22px;
+    color: black;
+    margin-bottom: 5px;
+}
+.header__search-list-price{
+    font-family: 'DIN Pro',sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    color: #111111;
+}
+.header__link.active{
+    color: #FF9846;
+}
