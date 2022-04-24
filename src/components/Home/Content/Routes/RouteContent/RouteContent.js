@@ -86,7 +86,6 @@ const RouteContent = ({Logo, title, path}) => {
                     </div>
                 ))}
             </div>
-            <City/>
         </div>
     );
 };

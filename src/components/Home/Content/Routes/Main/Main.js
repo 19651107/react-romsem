@@ -120,7 +120,6 @@ const Main = () => {
                             )))}
                 </Swiper>
             </div>
-            <City/>
         </>
     );
 };

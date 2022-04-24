@@ -16,31 +16,34 @@ import Product from "./Product/Product";
 import Reviews from "./Routes/Reviews/Reviews";
 import Delivery from "./Routes/Delivery/Delivery";
 import Footer from "./Footer/Footer";
+import ContentLayOut from "./ContentLayOut/ContentLayOut";
 
 const Content = () => {
     return (
         <div className="home__content">
-                <Header/>
-            <div className="container">
-                <Routes>
-                    <Route path="/" element={<Main/>}/>
-                    <Route path="/pizza" element={<Pizza/>}/>
-                    <Route path="/set" element={<Sets/>}/>
-                    <Route path="/wok" element={<Wok/>}/>
-                    <Route path="/roll" element={<Rolls/>}/>
-                    <Route path="/sushi" element={<Sushi/>}/>
-                    <Route path="/salad" element={<Salads/>}/>
-                    <Route path="/sup" element={<Sups/>}/>
-                    <Route path="/corndog" element={<CornDogs/>}/>
-                    <Route path="/drink" element={<Drinks/>}/>
-                    <Route path="/action" element={<Action/>}/>
-                    <Route path="/:path/product/:id" element={<Product/>}/>
-                    <Route path="/reviews" element={<Reviews/>}/>
-                    <Route path="/delivery" element={<Delivery/>}/>
-                </Routes>
-                <Footer/>
+                    <Header/>
+                    <div className="container">
+                        <Routes>
+                            <Route path="/" element={<ContentLayOut/>}>
+                                <Route index element={<Main/>}/>
+                                <Route path="pizza" element={<Pizza/>}/>
+                                <Route path="set" element={<Sets/>}/>
+                                <Route path="wok" element={<Wok/>}/>
+                                <Route path="roll" element={<Rolls/>}/>
+                                <Route path="sushi" element={<Sushi/>}/>
+                                <Route path="salad" element={<Salads/>}/>
+                                <Route path="sup" element={<Sups/>}/>
+                                <Route path="corndog" element={<CornDogs/>}/>
+                                <Route path="drink" element={<Drinks/>}/>
+                                <Route path="action" element={<Action/>}/>
+                            </Route>
+                            <Route path="/:path/product/:id" element={<Product/>}/>
+                            <Route path="/reviews" element={<Reviews/>}/>
+                            <Route path="/delivery" element={<Delivery/>}/>
+                        </Routes>
+                        <Footer/>
+                    </div>
             </div>
-        </div>
     );
 };
 
