@@ -17,7 +17,7 @@ const Cart = () => {
                     <ul className="home__cart-list">
                             {cart.map((item)=>(
                                 <>
-                                    <li key={item.id} className="home__cart-item">
+                                    <li key={`${item.id}${item.title}${item.price}`} className="home__cart-item">
                                         <img className="home__cart-item-img" src={item.imageUrl} alt=""/>
                                         <div className="home__cart-item-info">
                                             <h3 className="home__cart-item-title">{item.title.slice(0,15)}...</h3>
@@ -27,7 +27,7 @@ const Cart = () => {
                                                     <span className="home__cart-item-check">{item.count}</span>
                                                     <span className="home__cart-item-min" onClick={()=> plusOne(item)}>+</span>
                                                 </div>
-                                                <span className="home__cart-item-price">{item.price * item.count} сом</span>
+                                                <span className="home__cart-item-price">{item.categories === 'pizza' && item.size === 0 ? item.price * item.count : item.categories === 'pizza' && item.size === 1 ? item.priceMiddle * item.count : item.categories === 'pizza' && item.size === 2 ? item.priceLarge * item.count : item.price * item.count} сом</span>
                                             </div>
                                         </div>
                                         <span className="home__cart-item-delete" onClick={()=> deleteProduct(item)}>✗</span>
@@ -36,7 +36,7 @@ const Cart = () => {
                             ))}
                         <div className="home__cart-order">
                             <h3 className="home__cart-order-price">{cart.reduce((acc,rec)=> {
-                                return acc + (rec.price * rec.count)
+                                return acc + (rec.categories === 'pizza' && rec.size === 0 ? rec.price * rec.count : rec.categories === 'pizza' && rec.size === 1 ? rec.priceMiddle * rec.count : rec.categories === 'pizza' && rec.size === 2 ? rec.priceLarge * rec.count : rec.price * rec.count)
                             },0)} сом</h3>
                             <button type="button" className="home__cart-order-btn">Оформить заказ</button>
                         </div>

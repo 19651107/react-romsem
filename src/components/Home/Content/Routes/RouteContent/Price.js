@@ -1,8 +1,8 @@
 import React from 'react';
 
-const Price = ({price}) => {
+const Price = ({item}) => {
     return (
-        <p className="content__card-price">{price} сом</p>
+        <p className="content__card-price">{item} сом</p>
     );
 };
 

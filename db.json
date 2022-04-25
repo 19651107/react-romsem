@@ -13,7 +13,11 @@
         30,
         40
       ],
-      "price": 803,
+      "categories": "pizza",
+      "size": 0,
+      "price": 350,
+      "priceMiddle": 550,
+      "priceLarge": 700,
       "category": 0,
       "rating": 4
     },
@@ -26,9 +30,14 @@
       ],
       "sizes": [
         26,
+        30,
         40
       ],
+      "categories": "pizza",
+      "size": 0,
       "price": 245,
+      "priceMiddle": 512,
+      "priceLarge": 650,
       "category": 1,
       "rating": 6
     },
@@ -41,9 +50,14 @@
       ],
       "sizes": [
         26,
+        30,
         40
       ],
+      "categories": "pizza",
+      "size": 0,
       "price": 295,
+      "priceMiddle": 600,
+      "priceLarge": 775,
       "category": 1,
       "rating": 4
     },
@@ -59,7 +73,11 @@
         30,
         40
       ],
+      "categories": "pizza",
+      "size": 0,
       "price": 275,
+      "priceMiddle": 450,
+      "priceLarge": 560,
       "category": 2,
       "rating": 2
     },
@@ -76,7 +94,11 @@
         30,
         40
       ],
+      "categories": "pizza",
+      "size": 0,
       "price": 415,
+      "priceMiddle": 723,
+      "priceLarge": 1100,
       "category": 3,
       "rating": 8
     },
@@ -88,10 +110,15 @@
         0
       ],
       "sizes": [
+        26,
         30,
         40
       ],
+      "categories": "pizza",
+      "size": 0,
       "price": 580,
+      "priceMiddle": 856,
+      "priceLarge": 1250,
       "category": 2,
       "rating": 2
     },
@@ -108,7 +135,11 @@
         30,
         40
       ],
+      "categories": "pizza",
+      "size": 0,
       "price": 675,
+      "priceMiddle": 869,
+      "priceLarge": 1325,
       "category": 1,
       "rating": 9
     },
@@ -125,7 +156,11 @@
         30,
         40
       ],
+      "categories": "pizza",
+      "size": 0,
       "price": 450,
+      "priceMiddle": 675,
+      "priceLarge": 865,
       "category": 4,
       "rating": 10
     },
@@ -142,7 +177,11 @@
         30,
         40
       ],
+      "categories": "pizza",
+      "size": 0,
       "price": 395,
+      "priceMiddle": 650,
+      "priceLarge": 985,
       "category": 5,
       "rating": 10
     },
@@ -159,7 +198,11 @@
         30,
         40
       ],
+      "categories": "pizza",
+      "size": 0,
       "price": 285,
+      "priceMiddle": 536,
+      "priceLarge": 700,
       "category": 5,
       "rating": 7
     }
@@ -178,7 +221,7 @@
         "унаги",
         "соус"
       ],
-      "categories": "Холодные роллы"
+      "categories": "rolls"
     },
     {
       "id": 2,
@@ -193,7 +236,7 @@
         "огурец",
         "сыр"
       ],
-      "categories": "Холодные роллы"
+      "categories": "rolls"
     },
     {
       "id": 3,
@@ -208,7 +251,7 @@
         "огурец",
         "сыр"
       ],
-      "categories": "Холодные роллы"
+      "categories": "rolls"
     },
     {
       "id": 4,
@@ -224,7 +267,7 @@
         "огурец",
         "масаго"
       ],
-      "categories": "Холодные роллы"
+      "categories": "rolls"
     },
     {
       "id": 5,
@@ -236,7 +279,7 @@
         "cыр",
         "рис"
       ],
-      "categories": "Холодные роллы"
+      "categories": "rolls"
     },
     {
       "id": 6,
@@ -249,7 +292,7 @@
         "рис",
         "нори"
       ],
-      "categories": "Холодные роллы"
+      "categories": "rolls"
     },
     {
       "id": 7,
@@ -265,7 +308,7 @@
         "сыр пармезан",
         "помидоры"
       ],
-      "categories": "Холодные роллы"
+      "categories": "rolls"
     },
     {
       "id": 8,
@@ -278,7 +321,7 @@
         "cыр",
         "лосось"
       ],
-      "categories": "Холодные роллы"
+      "categories": "rolls"
     },
     {
       "id": 9,
@@ -293,7 +336,7 @@
         "кунжут",
         "очищенная кожа семги"
       ],
-      "categories": "Холодные роллы"
+      "categories": "rolls"
     },
     {
       "id": 10,
@@ -308,7 +351,7 @@
         "кунжут",
         "огурцы"
       ],
-      "categories": "Холодные роллы"
+      "categories": "rolls"
     },
     {
       "id": 11,
@@ -322,7 +365,7 @@
         "лосось",
         "огурцы"
       ],
-      "categories": "Холодные роллы"
+      "categories": "rolls"
     },
     {
       "id": 12,
@@ -336,7 +379,7 @@
         "краб",
         "огурцы"
       ],
-      "categories": "Холодные роллы"
+      "categories": "rolls"
     },
     {
       "id": 13,
@@ -351,7 +394,7 @@
         "сыр",
         "огурцы"
       ],
-      "categories": "Холодные роллы"
+      "categories": "rolls"
     },
     {
       "id": 14,
@@ -364,7 +407,7 @@
         "огурцы",
         "сыр"
       ],
-      "categories": "Холодные роллы"
+      "categories": "rolls"
     },
     {
       "id": 15,
@@ -379,7 +422,7 @@
         "твор.сыр",
         "огурцы"
       ],
-      "categories": "Холодные роллы"
+      "categories": "rolls"
     },
     {
       "id": 16,
@@ -394,7 +437,7 @@
         "огурцы",
         "соус"
       ],
-      "categories": "Мини роллы"
+      "categories": "rolls"
     },
     {
       "id": 17,
@@ -409,7 +452,7 @@
         "огурцы",
         "Спайси соус"
       ],
-      "categories": "Мини роллы"
+      "categories": "rolls"
     },
     {
       "id": 18,
@@ -424,7 +467,7 @@
         "огруец",
         "майонез"
       ],
-      "categories": "запеченные роллы"
+      "categories": "rolls"
     },
     {
       "id": 19,
@@ -439,7 +482,7 @@
         "огруец",
         "фирменный Чиккен спайси соус"
       ],
-      "categories": "запеченные роллы"
+      "categories": "rolls"
     },
     {
       "id": 20,
@@ -453,7 +496,7 @@
         "курица",
         "майонез"
       ],
-      "categories": "запеченные роллы"
+      "categories": "rolls"
     },
     {
       "id": 21,
@@ -468,7 +511,7 @@
         "огруец",
         "Унаги смесь"
       ],
-      "categories": "запеченные роллы"
+      "categories": "rolls"
     },
     {
       "id": 22,
@@ -483,7 +526,7 @@
         "огруец",
         "канико смесь"
       ],
-      "categories": "запеченные роллы"
+      "categories": "rolls"
     },
     {
       "id": 23,
@@ -495,7 +538,7 @@
         "нори",
         "лосось"
       ],
-      "categories": "Мини роллы"
+      "categories": "rolls"
     },
     {
       "id": 24,
@@ -508,7 +551,7 @@
         "краб",
         "майонез"
       ],
-      "categories": "Мини роллы"
+      "categories": "rolls"
     },
     {
       "id": 25,
@@ -521,7 +564,7 @@
         "чука",
         "кунжут"
       ],
-      "categories": "Мини роллы"
+      "categories": "rolls"
     },
     {
       "id": 26,
@@ -536,7 +579,7 @@
         "понко",
         "сыр"
       ],
-      "categories": "Жаренные роллы"
+      "categories": "rolls"
     },
     {
       "id": 27,
@@ -552,7 +595,7 @@
         "панко",
         "кляр"
       ],
-      "categories": "Жаренные роллы"
+      "categories": "rolls"
     },
     {
       "id": 28,
@@ -570,7 +613,7 @@
         "панко",
         "кляр"
       ],
-      "categories": "Жаренные роллы"
+      "categories": "rolls"
     },
     {
       "id": 29,
@@ -586,7 +629,7 @@
         "басай",
         "панко"
       ],
-      "categories": "Жаренные роллы"
+      "categories": "rolls"
     },
     {
       "id": 30,
@@ -604,7 +647,7 @@
         "киви",
         "сироп  шоколадный"
       ],
-      "categories": "Сладкие роллы"
+      "categories": "rolls"
     },
     {
       "id": 31,
@@ -620,7 +663,7 @@
         "сироп  шоколадный",
         "cыр"
       ],
-      "categories": "Сладкие роллы"
+      "categories": "rolls"
     }
   ],
   "sushi": [
@@ -686,7 +729,7 @@
   "drinks": [
     {
       "id": 1,
-      "imageUrl": "https://static.pizzasushiwok.ru/images/menu_new/70-1300.jpg",
+      "imageUrl": "https://svetofor.info/images/detailed/197/napitok-coca-cola-no-sugar-pet-gazirovannyj-15-l-1-sht-113.jpg",
       "title": "Кока-кола",
       "price": 100,
       "categories": "Холодные напитки"
@@ -1011,7 +1054,218 @@
       ],
       "categories": "WOK"
     }
-  ],"all": {
+  ],
+  "salad": [
+    {
+      "id": 1,
+      "title": "Салат Итальянский",
+      "price": 370,
+      "imageUrl": "https://sergiopizza.ru/upload/iblock/55a/55a7bf9da0c2b44b4d4352af1e8d27f7.png",
+      "ingredients": [
+        "салат Айсберг",
+        "колбаски Салями",
+        "ветчина",
+        "огурцы",
+        "помидоры",
+        "сладкий перец",
+        "маслины",
+        "сыр",
+        "красный лук",
+        "пикантный имбирный соус"
+      ],
+      "categories": "salad"
+    },
+    {
+      "id": 2,
+      "title": "Салат Греческий",
+      "price": 330,
+      "imageUrl": "https://www.evrika.od.ua/wp-content/uploads/2018/12/99_main.png",
+      "ingredients": [
+        "Томаты",
+        "огурец",
+        "перец болгарский",
+        "маслины",
+        "сыр «Фета»",
+        "лук репчатый",
+        "масло оливковое"
+      ],
+      "categories": "salad"
+    },
+    {
+      "id": 3,
+      "title": "Салат Цезарь",
+      "price": 390,
+      "imageUrl": "https://karsi.zp.ua/wp-content/uploads/2017/10/SalatCezar-500x500-1.png",
+      "ingredients": [
+        "Томат",
+        "сыр твердый",
+        "куриное яйцо",
+        "гренки",
+        "салат айсберг",
+        "филе куриное",
+        "соус цезарь"
+      ],
+      "categories": "salad"
+    },
+    {
+      "id": 4,
+      "title": "Салат с курицей",
+      "price": 340,
+      "imageUrl": "https://png.pngtree.com/png-clipart/20190826/ourlarge/pngtree-chicken-salad-png-image_1701085.jpg",
+      "ingredients": [
+        "помидор",
+        "перец",
+        "сладкий перец",
+        "курица",
+        "лук",
+        "салат"
+      ],
+      "categories": "salad"
+    },
+    {
+      "id": 5,
+      "title": "Салат куриный с ананасами",
+      "price": 370,
+      "imageUrl": "https://sergiopizza.ru/upload/iblock/576/5765a7a02182977de9150df53da64a09.png",
+      "ingredients": [
+        "салат Айсберг",
+        "куриное филе",
+        "ананасы",
+        "лук Фри",
+        "сыр Пармезан",
+        "соус Цезарь"
+      ],
+      "categories": "salad"
+    },
+    {
+      "id": 6,
+      "title": "Салат Овощной",
+      "price": 320,
+      "imageUrl": "https://sergiopizza.ru/upload/iblock/ff7/ff71914037ca126561947bb105f0027f.png",
+      "ingredients": [
+        "салат Айсберг",
+        "огурцы",
+        "помидоры",
+        "сладкий перец",
+        "красный лук",
+        "маслины",
+        "соус с базиликом"
+      ],
+      "categories": "salad"
+    },
+    {
+      "id": 7,
+      "title": "Салат Цезарь с курицей",
+      "price": 320,
+      "imageUrl": "https://sergiopizza.ru/upload/iblock/ff7/ff71914037ca126561947bb105f0027f.png",
+      "ingredients": [
+        "салат Айсберг",
+        "куриное филе",
+        "гренки",
+        "маслины",
+        "сыр Пармезан",
+        "соус Цезарь"
+      ],
+      "categories": "salad"
+    },
+    {
+      "id": 8,
+      "title": "Салат Цезарь с креветками",
+      "price": 440,
+      "imageUrl": "https://sergiopizza.ru/upload/iblock/9e9/9e9933214f976864468dd3d5747deba3.png",
+      "ingredients": [
+        "салат Айсберг",
+        "обжаренные креветки",
+        "гренки",
+        "маслины",
+        "сыр Пармезан",
+        "соус Цезарь"
+      ],
+      "categories": "salad"
+    }
+  ],
+  "soup": [
+    {
+      "id": 1,
+      "title": "Суп Фо с говядиной",
+      "price": 420,
+      "imageUrl": "https://sergiopizza.ru/upload/iblock/06d/06d85d3654db09f5dd1f5fba631811fa.png",
+      "ingredients": [
+        "бульон",
+        "говядина",
+        "рисовая лапша",
+        "зелень",
+        "красный лук",
+        "ростки Маш"
+      ],
+      "categories": "soup"
+    },
+    {
+      "id": 2,
+      "title": "Суп Фо с курицей",
+      "price": 400,
+      "imageUrl": "https://sergiopizza.ru/upload/iblock/ed8/ed8a38c8a46e7f420915697233f6f94d.png",
+      "ingredients": [
+        "бульон",
+        "курица",
+        "рисовая лапша",
+        "зелень",
+        "красный лук",
+        "ростки Маш"
+      ],
+      "categories": "soup"
+    },
+    {
+      "id": 3,
+      "title": "Биф удон",
+      "price": 320,
+      "imageUrl": "https://romsem.kg/wp-content/uploads/2021/11/IMG_9310_1_.webp",
+      "ingredients": [
+        "лапша",
+        "грибы «Шиитаке»",
+        "говядина",
+        "яйцо",
+        "лук репчатый",
+        "зеленый лук",
+        "удон",
+        "приправа «Дашида»"
+      ],
+      "categories": "soup"
+    },
+    {
+      "id": 4,
+      "title": "Суп Мисо",
+      "price": 340,
+      "imageUrl": "https://romsem.kg/wp-content/uploads/2021/11/IMG_9285_1_.webp",
+      "ingredients": [
+        "мисо паста",
+        "соевый соус",
+        "кальмар",
+        "креветка",
+        "лук",
+        "лапша"
+      ],
+      "categories": "soup"
+    }
+  ],
+  "corndog": [
+    {
+      "id": 1,
+      "title": "Корейский корн дог",
+      "price": 70,
+      "imageUrl": "https://foodies.academy/wp-content/uploads/2019/07/20190708_153601-601x601.jpg",
+      "ingredients": [
+        "Сырная палочка Моцарела или сулугуги 3 шт",
+        "Сосиски 6 шт",
+        "Панировочные сухари Панко 30 гр",
+        "Сахар",
+        "Острый кетчуп",
+        "Медовая горчица"
+      ],
+      "categories": "corndog"
+    }
+  ],
+  "all": {
   "pizza": [
     {
       "id": 0,
@@ -2239,216 +2493,6 @@
     }
   ]
 },
-  "salad": [
-    {
-      "id": 1,
-      "title": "Салат Итальянский",
-      "price": 370,
-      "imageUrl": "https://sergiopizza.ru/upload/iblock/55a/55a7bf9da0c2b44b4d4352af1e8d27f7.png",
-      "ingredients": [
-        "салат Айсберг",
-        "колбаски Салями",
-        "ветчина",
-        "огурцы",
-        "помидоры",
-        "сладкий перец",
-        "маслины",
-        "сыр",
-        "красный лук",
-        "пикантный имбирный соус"
-      ],
-      "categories": "salad"
-    },
-    {
-      "id": 2,
-      "title": "Салат Греческий",
-      "price": 330,
-      "imageUrl": "https://www.evrika.od.ua/wp-content/uploads/2018/12/99_main.png",
-      "ingredients": [
-        "Томаты",
-        "огурец",
-        "перец болгарский",
-        "маслины",
-        "сыр «Фета»",
-        "лук репчатый",
-        "масло оливковое"
-      ],
-      "categories": "salad"
-    },
-    {
-      "id": 3,
-      "title": "Салат Цезарь",
-      "price": 390,
-      "imageUrl": "https://karsi.zp.ua/wp-content/uploads/2017/10/SalatCezar-500x500-1.png",
-      "ingredients": [
-        "Томат",
-        "сыр твердый",
-        "куриное яйцо",
-        "гренки",
-        "салат айсберг",
-        "филе куриное",
-        "соус цезарь"
-      ],
-      "categories": "salad"
-    },
-    {
-      "id": 4,
-      "title": "Салат с курицей",
-      "price": 340,
-      "imageUrl": "https://png.pngtree.com/png-clipart/20190826/ourlarge/pngtree-chicken-salad-png-image_1701085.jpg",
-      "ingredients": [
-        "помидор",
-        "перец",
-        "сладкий перец",
-        "курица",
-        "лук",
-        "салат"
-      ],
-      "categories": "salad"
-    },
-    {
-      "id": 5,
-      "title": "Салат куриный с ананасами",
-      "price": 370,
-      "imageUrl": "https://sergiopizza.ru/upload/iblock/576/5765a7a02182977de9150df53da64a09.png",
-      "ingredients": [
-        "салат Айсберг",
-        "куриное филе",
-        "ананасы",
-        "лук Фри",
-        "сыр Пармезан",
-        "соус Цезарь"
-      ],
-      "categories": "salad"
-    },
-    {
-      "id": 6,
-      "title": "Салат Овощной",
-      "price": 320,
-      "imageUrl": "https://sergiopizza.ru/upload/iblock/ff7/ff71914037ca126561947bb105f0027f.png",
-      "ingredients": [
-        "салат Айсберг",
-        "огурцы",
-        "помидоры",
-        "сладкий перец",
-        "красный лук",
-        "маслины",
-        "соус с базиликом"
-      ],
-      "categories": "salad"
-    },
-    {
-      "id": 7,
-      "title": "Салат Цезарь с курицей",
-      "price": 320,
-      "imageUrl": "https://sergiopizza.ru/upload/iblock/ff7/ff71914037ca126561947bb105f0027f.png",
-      "ingredients": [
-        "салат Айсберг",
-        "куриное филе",
-        "гренки",
-        "маслины",
-        "сыр Пармезан",
-        "соус Цезарь"
-      ],
-      "categories": "salad"
-    },
-    {
-      "id": 8,
-      "title": "Салат Цезарь с креветками",
-      "price": 440,
-      "imageUrl": "https://sergiopizza.ru/upload/iblock/9e9/9e9933214f976864468dd3d5747deba3.png",
-      "ingredients": [
-        "салат Айсберг",
-        "обжаренные креветки",
-        "гренки",
-        "маслины",
-        "сыр Пармезан",
-        "соус Цезарь"
-      ],
-      "categories": "salad"
-    }
-  ],
-  "soup": [
-    {
-      "id": 1,
-      "title": "Суп Фо с говядиной",
-      "price": 420,
-      "imageUrl": "https://sergiopizza.ru/upload/iblock/06d/06d85d3654db09f5dd1f5fba631811fa.png",
-      "ingredients": [
-        "бульон",
-        "говядина",
-        "рисовая лапша",
-        "зелень",
-        "красный лук",
-        "ростки Маш"
-      ],
-      "categories": "soup"
-    },
-    {
-      "id": 2,
-      "title": "Суп Фо с курицей",
-      "price": 400,
-      "imageUrl": "https://sergiopizza.ru/upload/iblock/ed8/ed8a38c8a46e7f420915697233f6f94d.png",
-      "ingredients": [
-        "бульон",
-        "курица",
-        "рисовая лапша",
-        "зелень",
-        "красный лук",
-        "ростки Маш"
-      ],
-      "categories": "soup"
-    },
-    {
-      "id": 3,
-      "title": "Биф удон",
-      "price": 320,
-      "imageUrl": "https://romsem.kg/wp-content/uploads/2021/11/IMG_9310_1_.webp",
-      "ingredients": [
-        "лапша",
-        "грибы «Шиитаке»",
-        "говядина",
-        "яйцо",
-        "лук репчатый",
-        "зеленый лук",
-        "удон",
-        "приправа «Дашида»"
-      ],
-      "categories": "soup"
-    },
-    {
-      "id": 4,
-      "title": "Суп Мисо",
-      "price": 340,
-      "imageUrl": "https://romsem.kg/wp-content/uploads/2021/11/IMG_9285_1_.webp",
-      "ingredients": [
-        "мисо паста",
-        "соевый соус",
-        "кальмар",
-        "креветка",
-        "лук",
-        "лапша"
-      ],
-      "categories": "soup"
-    }
-  ],
-  "corndog": [
-    {
-      "id": 1,
-      "title": "Корейский корн дог",
-      "price": 70,
-      "imageUrl": "https://foodies.academy/wp-content/uploads/2019/07/20190708_153601-601x601.jpg",
-      "ingredients": [
-        "Сырная палочка Моцарела или сулугуги 3 шт",
-        "Сосиски 6 шт",
-        "Панировочные сухари Панко 30 гр",
-        "Сахар",
-        "Острый кетчуп",
-        "Медовая горчица"
-      ],
-      "categories": "corndog"
-    }
-  ],
   "rewiews": [
     {
       "name": "Рыскул",
@@ -2457,8 +2501,7 @@
       "id": 2
     }
   ],
-
-  "slider" : {
+  "slider": {
     "pizza": [
       {
         "id": 0,
@@ -2784,7 +2827,7 @@
       }
     ]
   },
-  "sliderUp" : {
+  "sliderUp": {
     "rolls": [
       {
         "id": 1,

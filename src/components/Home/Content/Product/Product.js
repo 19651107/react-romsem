@@ -16,6 +16,8 @@ import { Navigation } from "swiper";
 
 const Product = () => {
 
+    const {addItem} = useContext(CustomContext)
+
     const [product,setProduct] = useState({})
     const [rec,setRec] = useState([])
     const {plusOne,minusOne} = useContext(CustomContext)
@@ -43,7 +45,7 @@ const Product = () => {
                 <img className="product__content-img" src={product.imageUrl} alt={product.title}/>
                 <div className="product__content-info">
                     <h2 className="product__content-title">{product.title}</h2>
-                    <PizzaSize sizes={product.sizes}/>
+                    <PizzaSize item={product}/>
                     <div className="product__content-buy">
                        <Price price={product.price}/>
                         <div className="product__content-pay">
@@ -69,14 +71,14 @@ const Product = () => {
                 modules={[Navigation]}
                 className="mySwiper"
             >
-                {rec.map((item,idx)=>(
-                    <SwiperSlide>
-                        <div key={item.id} className="product__swiper-card">
+                {rec.map((item)=>(
+                    <SwiperSlide key={`${item.id}${item.title}`}>
+                        <div className="product__swiper-card">
                             <img className="product__swiper-img" src={item.imageUrl} alt={item.title}/>
                             <h3 className="product__swiper-title">{item.title}</h3>
                             <div className="product__swiper-buy">
                                 <Price price={item.price}/>
-                                <button className="product__swiper-btn">+</button>
+                                <button className="product__swiper-btn" onClick={()=> addItem(item)}>+</button>
                             </div>
                         </div>
                     </SwiperSlide>

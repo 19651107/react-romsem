@@ -54,6 +54,7 @@
     cursor: pointer;
     display: flex;
     justify-content: center;
+    user-select: none;
     align-items: center;
 }
 .product__content-pay-count{
@@ -79,6 +80,7 @@
     height: 40px;
     color: #FFFFFF;
     cursor: pointer;
+    user-select: none;
 }
 .product__rec{
     font-family: 'DIN Pro',sans-serif;

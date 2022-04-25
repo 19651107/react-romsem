@@ -201,6 +201,10 @@
     cursor: pointer;
     border: 1px solid #FF9846;
 }
+.content__card-size.active{
+    background-color: #FF9846;
+    color: #FFFFFF;
+}
 .content__card-bot{
     display: flex;
     justify-content: space-between;

@@ -1,5 +1,4 @@
 import React, {useContext} from 'react';
-import City from "../../City/City";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/effect-fade";
@@ -23,7 +22,7 @@ import Price from "../RouteContent/Price";
 const Main = () => {
 
 
-    const {switches,setSwitches,slider,main} = useContext(CustomContext)
+    const {switches,setSwitches,slider,main,addItem} = useContext(CustomContext)
 
 
     return (
@@ -99,7 +98,7 @@ const Main = () => {
                                             <h3 className="sliderUp__swiper-title">{el.title}</h3>
                                             <div className="sliderUp__swiper-buy">
                                                 <Price price={el.price}/>
-                                                <button className="sliderUp__swiper-btn">Хочу!</button>
+                                                <button className="sliderUp__swiper-btn" onClick={()=> addItem(el)}>Хочу!</button>
                                             </div>
                                         </div>
                                     </SwiperSlide>

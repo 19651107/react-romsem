@@ -105,6 +105,7 @@
     justify-content: center;
     border-radius: 50%;
     cursor: pointer;
+    user-select: none;
 }
 .home__cart-item{
     display: flex;
@@ -156,7 +157,7 @@
     display: flex;
     margin-top: 52px;
     align-items: center;
-    column-gap: 20px;
+    column-gap: 15px;
 }
 .home__cart-order-btn{
     font-family: 'DIN Pro',sans-serif;
@@ -167,8 +168,8 @@
     color: #F2F2F2;
     background: #F46D40;
     border-radius: 5px;
-    width: 180px;
-    height: 32px;
+    width: 170px;
+    height: 30px;
     border: none;
     cursor: pointer;
 }
