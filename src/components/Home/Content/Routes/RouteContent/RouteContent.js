@@ -1,10 +1,6 @@
 import React, {useEffect, useState} from 'react';
 import axios from "axios";
 import SortItem from "../SortItem/SortItem";
-import {Link} from "react-router-dom";
-import PizzaSize from "./PizzaSize";
-import WantBuy from "./WantBuy";
-import Price from "./Price";
 import Card from "./Card/Card";
 
 const RouteContent = ({Logo, title, path}) => {
@@ -46,9 +42,17 @@ const RouteContent = ({Logo, title, path}) => {
                     if (sort === 'Название'){
                         return a.title > b.title ? 1 : -1
                     } else if (sort === 'Сначала дешевле'){
-                        return a.price - b.price && a.priceMiddle - b.priceMiddle || a.priceLarge - b.priceLarge
+                        return  arr.forEach((item)=>{
+                            if (path === 'pizza' && item.size === 1){
+                                return a.priceMiddle - b.priceMiddle
+                            } else if (path === 'pizza' && item.size === 2){
+                                return a.priceLarge - b.priceLarge
+                            } else if (path === 'pizza' && item.size === 0){
+                                return a.price - b.price
+                            }
+                        })
                     } else if (sort === 'Сначала дороже'){
-                        return b.price - a.price && b.priceMiddle - a.priceMiddle || b.priceLarge - a.priceLarge
+                        return b.price - a.price || b.priceMiddle - a.priceMiddle || b.priceLarge - a.priceLarge
                     } else if (sort === 'Вес'){
                         return a.weight - b.weight
                     } else if (sort === 'Количество кусочков') {

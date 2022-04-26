@@ -18,7 +18,17 @@ export const Context = (props) => {
             }
         })
             if (idx >= 0){
-                cart[idx].count++
+                setCart(cart.map((el)=>{
+                    if (el.count >= 9){
+                        return el
+                    } else {
+                       if (el.title === item.title && el.size === item.size){
+                           return {...el,count: el.count++}
+                       } else {
+                           return el
+                       }
+                    }
+                }))
                 setCart([...cart])
             } else {
                 setCart([...cart,{
@@ -29,7 +39,13 @@ export const Context = (props) => {
     }
 
     const plusOne = (item) => {
-        let idx = cart.findIndex((el)=> el.title === item.title)
+        let idx = cart.findIndex((el)=> {
+            if (item.categories === 'pizza'){
+                return el.title === item.title && el.size === item.size
+            } else {
+                return el.title === item.title
+            }
+        })
         if (idx >= 0) {
             setCart(cart.map((el)=>{
                 if (item.title === el.title && item.size === el.size){
@@ -51,10 +67,9 @@ export const Context = (props) => {
     }
 
     const minusOne = (item) => {
-
         if (item.count > 1){
             setCart(cart.map((el)=>{
-                if (item.title === el.title && item.size === el.size){
+                if (item.title === el.title && item.size === el.size && el.categories === 'pizza'){
                     return {...el, count: el.count - 1}
                 } else {
                     return el
@@ -68,11 +83,7 @@ export const Context = (props) => {
     }
 
     const deleteProduct = (item) => {
-        setCart(cart.filter((el)=> {
-            if (item.size === el.title && item.size !== el.size){
-                return el.title !== item.title
-            }
-        }))
+       setCart(cart.filter((el)=> el.title !== item.title || el.size !== item.size))
     }
 
     const [switches,setSwitches] = useState(true)

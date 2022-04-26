@@ -33,11 +33,11 @@ const Card = ({item,path}) => {
                                 </p> : ''
             }
             <div className="content__card-bot">
-                <Price item={path === 'pizza' && pizza.size === 0
+                <Price item={item.categories === 'pizza' && pizza.size === 0
                     ? item.price
-                    : path === 'pizza' && pizza.size === 1
-                        ? item.priceMiddle : path === 'pizza' && pizza.size === 2 ? item.priceLarge : item.price}/>
-                <WantBuy item={path === 'pizza' ? pizza : item}/>
+                    : item.categories === 'pizza' && pizza.size === 1
+                        ? item.priceMiddle : item.categories === 'pizza' && pizza.size === 2 ? item.priceLarge : item.price}/>
+                <WantBuy item={item.categories === 'pizza' ? pizza : item}/>
             </div>
         </div>
     );

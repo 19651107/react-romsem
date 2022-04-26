@@ -15,12 +15,11 @@ const Cart = () => {
                         Корзина
                     </div>
                     <ul className="home__cart-list">
-                            {cart.map((item)=>(
-                                <>
-                                    <li key={`${item.id}${item.title}${item.price}`} className="home__cart-item">
+                            {cart.map((item,idx)=>(
+                                    <li key={`${idx}${item.id}${item.title}${item.price}`} className="home__cart-item">
                                         <img className="home__cart-item-img" src={item.imageUrl} alt=""/>
                                         <div className="home__cart-item-info">
-                                            <h3 className="home__cart-item-title">{item.title.slice(0,15)}...</h3>
+                                            {/*<h3 className="home__cart-item-title">{item.title.slice(0,15)}...</h3>*/}
                                             <div className="home__cart-item-buy">
                                                 <div className="home__cart-item-math">
                                                     <span className="home__cart-item-min" onClick={()=> minusOne(item)}>-</span>
@@ -32,7 +31,6 @@ const Cart = () => {
                                         </div>
                                         <span className="home__cart-item-delete" onClick={()=> deleteProduct(item)}>✗</span>
                                     </li>
-                                </>
                             ))}
                         <div className="home__cart-order">
                             <h3 className="home__cart-order-price">{cart.reduce((acc,rec)=> {

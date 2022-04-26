@@ -670,7 +670,7 @@
     {
       "id": 1,
       "title": "суши с угрем",
-      "price": 95,
+      "price": 269,
       "imageUrl": "https://www.gastronom.ru/binfiles/images/00000017/00022168.jpg",
       "ingredients": [
         "Рис",
@@ -693,7 +693,7 @@
     {
       "id": 3,
       "title": "суши с лососем",
-      "price": 80,
+      "price": 325,
       "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSpfYdqp5t6ok86fBWBgW2pP_xQcAXzrcy0b26x302AqTPew9dJFV03Nvhx745FuXk7s28&usqp=CAU",
       "ingredients": [
         "Рис",
@@ -704,7 +704,7 @@
     {
       "id": 4,
       "title": "Гункан Чиккен спайси",
-      "price": 40,
+      "price": 456,
       "imageUrl": "https://sushipoima.ru/upload/iblock/4bb/4bb0302c59392dd67a32e3d57f7367f7.jpg",
       "ingredients": [
         "Рис",
@@ -731,7 +731,7 @@
       "id": 1,
       "imageUrl": "https://svetofor.info/images/detailed/197/napitok-coca-cola-no-sugar-pet-gazirovannyj-15-l-1-sht-113.jpg",
       "title": "Кока-кола",
-      "price": 100,
+      "price": 50,
       "categories": "Холодные напитки"
     },
     {

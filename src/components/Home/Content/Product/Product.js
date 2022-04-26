@@ -4,14 +4,12 @@ import './product.css'
 import {useNavigate} from "react-router-dom";
 import axios from "axios";
 import {useParams} from 'react-router-dom'
-import PizzaSize from "../Routes/RouteContent/PizzaSize";
-import WantBuy from "../Routes/RouteContent/WantBuy";
-import Price from "../Routes/RouteContent/Price";
 import 'swiper/css';
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/navigation";
 import { Navigation } from "swiper";
+import ProductContent from "./ProductContent/ProductContent";
 
 
 const Product = () => {
@@ -20,7 +18,6 @@ const Product = () => {
 
     const [product,setProduct] = useState({})
     const [rec,setRec] = useState([])
-    const {plusOne,minusOne} = useContext(CustomContext)
     const {path,id} = useParams()
 
     useEffect(()=>{
@@ -41,22 +38,7 @@ const Product = () => {
                 </svg>
                 <span className="product__link-text" onClick={()=> navigate(-1)}>Назад</span>
             </div>
-            <div className="product__content">
-                <img className="product__content-img" src={product.imageUrl} alt={product.title}/>
-                <div className="product__content-info">
-                    <h2 className="product__content-title">{product.title}</h2>
-                    <PizzaSize item={product}/>
-                    <div className="product__content-buy">
-                       <Price price={product.price}/>
-                        <div className="product__content-pay">
-                            <span className="product__content-pay-back" onClick={()=> minusOne(product)}>-</span>
-                            <span className="product__content-pay-count">1 сом</span>
-                            <span className="product__content-pay-btn" onClick={()=> plusOne(product)}>+</span>
-                        </div>
-                    </div>
-                    <WantBuy item={product}/>
-                </div>
-            </div>
+           <ProductContent item={product}/>
             <h3 className="product__rec">Рекомендуем к этому товару</h3>
             <Swiper
                 slidesPerView={3}
@@ -77,7 +59,7 @@ const Product = () => {
                             <img className="product__swiper-img" src={item.imageUrl} alt={item.title}/>
                             <h3 className="product__swiper-title">{item.title}</h3>
                             <div className="product__swiper-buy">
-                                <Price price={item.price}/>
+                                <p className="product__swiper-price">{item.price} com</p>
                                 <button className="product__swiper-btn" onClick={()=> addItem(item)}>+</button>
                             </div>
                         </div>
