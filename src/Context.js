@@ -49,7 +49,7 @@ export const Context = (props) => {
         if (idx >= 0) {
             setCart(cart.map((el)=>{
                 if (item.title === el.title && item.size === el.size){
-                    if (item.count >= 9){
+                    if (el.count >= 9){
                         return el
                     } else {
                         return {...el, count: el.count + 1}
@@ -67,19 +67,34 @@ export const Context = (props) => {
     }
 
     const minusOne = (item) => {
-        if (item.count > 1){
-            setCart(cart.map((el)=>{
-                if (item.title === el.title && item.size === el.size && el.categories === 'pizza'){
-                    return {...el, count: el.count - 1}
-                } else {
-                    return el
-                }
-            }))
-        } else  {
-            setCart(cart.filter((el)=>{
-                return el.title !== item.title
-            }))
-        }
+        let idx = cart.findIndex((el)=> {
+            if (item.categories === 'pizza'){
+                return el.title === item.title && el.size === item.size
+            } else {
+                return el.title === item.title
+            }
+        })
+           if (idx >= 0){
+               setCart(cart.map((el)=>{
+                   if (item.title === el.title && item.size === el.size){
+                       if (el.count <= 1){
+                           return setCart([...cart.filter((ih)=> ih.title !== item.title)])
+                       } else {
+                           return {...el, count: el.count - 1}
+                       }
+                   } else {
+                       return el
+                   }
+               }))
+           } else  {
+               setCart(cart.filter((el)=>{
+                   if (el.categories === 'pizza'){
+                       return el.title !== item.title || el.size !== item.size
+                   } else {
+                       return el.title !== item.title
+                   }
+               }))
+           }
     }
 
     const deleteProduct = (item) => {

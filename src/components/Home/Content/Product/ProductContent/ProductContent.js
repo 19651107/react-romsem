@@ -14,7 +14,7 @@ const ProductContent = ({item}) => {
             <img className="product__content-img" src={item.imageUrl} alt={item.title}/>
             <div className="product__content-info">
                 <h2 className="product__content-title">{item.title}</h2>
-                <PizzaSize item={pizza.categories === 'pizza' ? pizza : item} setPizza={setPizza}/>
+                {item.categories === 'pizza' ?  <PizzaSize item={pizza.categories === 'pizza' ? pizza : item} setPizza={setPizza}/> : item.categories === 'суши' || item.categories === 'rolls' || item.categories === 'WOK' || item.categories === 'salad' || item.categories === 'soup' || item.categories === 'corndog' ? <p className="product__content-subtitle">{item.ingredients.slice(0,5).join(',')}</p> : item.categories === 'sets' ? <p className="product__content-subtitle">{item.combo.slice(0,4).join(',')}</p> : ''}
                 <div className="product__content-buy">
                     <Price item={pizza.categories === 'pizza' && pizza.size === 0
                         ? item.price

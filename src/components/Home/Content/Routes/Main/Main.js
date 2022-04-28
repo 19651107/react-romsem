@@ -97,7 +97,7 @@ const Main = () => {
                                             <img className="sliderUp__swiper-img" src={el.imageUrl} alt={el.title}/>
                                             <h3 className="sliderUp__swiper-title">{el.title}</h3>
                                             <div className="sliderUp__swiper-buy">
-                                                <Price price={el.price}/>
+                                                <Price item={el.price}/>
                                                 <button className="sliderUp__swiper-btn" onClick={()=> addItem(el)}>Хочу!</button>
                                             </div>
                                         </div>
@@ -110,7 +110,7 @@ const Main = () => {
                                             <img className="sliderUp__swiper-img" src={el.imageUrl} alt={el.title}/>
                                             <h3 className="sliderUp__swiper-title">{el.title}</h3>
                                             <div className="sliderUp__swiper-buy">
-                                                <Price price={el.price}/>
+                                                <Price item={el.price}/>
                                                 <button className="sliderUp__swiper-btn">Хочу!</button>
                                             </div>
                                         </div>

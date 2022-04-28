@@ -19,7 +19,7 @@ const Cart = () => {
                                     <li key={`${idx}${item.id}${item.title}${item.price}`} className="home__cart-item">
                                         <img className="home__cart-item-img" src={item.imageUrl} alt=""/>
                                         <div className="home__cart-item-info">
-                                            {/*<h3 className="home__cart-item-title">{item.title.slice(0,15)}...</h3>*/}
+                                            <h3 className="home__cart-item-title">{item.title.slice(0,15)}...</h3>
                                             <div className="home__cart-item-buy">
                                                 <div className="home__cart-item-math">
                                                     <span className="home__cart-item-min" onClick={()=> minusOne(item)}>-</span>

@@ -21,7 +21,7 @@ const Reviews = () => {
     const [add,setAdd] = useState(false)
 
     useEffect(()=>{
-        axios(`http://localhost:8080/rewiews`)
+        axios(`http://localhost:8080/reviews`)
             .then(({data})=> setReviews(data))
     },[add])
 
@@ -34,7 +34,7 @@ const Reviews = () => {
     }
 
     const addReview = (data) => {
-        axios.post('http://localhost:8080/rewiews',data).then(({data})=> {
+        axios.post('http://localhost:8080/reviews',data).then(({data})=> {
             setAdd(!data)
             reset()
         })
